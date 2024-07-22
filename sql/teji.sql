@@ -1,0 +1,24 @@
+create database teji;
+use teji;
+CREATE TABLE hospital_info(hospital_id int,hospital_name varchar (50) ,hospital_address varchar(20),no_of_doctors bigint , no_of_paitatient bigint, department varchar(30),no_of_nurse bigint,doctor_salary bigint,
+case_file_no int,no_of_beds int);
+INSERT INTO hospital_info values( 456, 'bhavya hospital','bengaluru',20,520,'General medicine',40,50000,1234,2000);
+INSERT INTO hospital_info values( 789,'swati hospital', 'rajaji nagar',30,500,'Obstetrics and gynaecology',60,500,4568,400);
+INSERT INTO hospital_info values( 7894,'anu hospital', 'btm',40,404,'Intensive care medicine',10,4500,852,300);
+INSERT INTO hospital_info values( 4569, 'samarth hospital','electronic city',50,350,'Psychiatry',30,2000,452,700);
+INSERT INTO hospital_info values( 6547, 'lalita hospital','maha laxmi layout',62,320,'Pediatrics',50,2500,652,800);
+INSERT INTO hospital_info values( 6548, 'chanagond hospital','shegunshi',310,'Radiology',20,3000,125,390);
+INSERT INTO hospital_info values(852, 'soni hospital','terdal',300,'Pharmacy',70,3500,325,380);
+INSERT INTO hospital_info values(1,'aly hospital', 'gokak',290,'Cardiology',80,4000,124,370);
+INSERT INTO hospital_info values(2,'rahul hospital',  'athani',90,280,'Neurology',90,6500,326,360);
+INSERT INTO hospital_info values(3,'karan hospital',  'harugeri',100,270,'Outpatient department',100,7500,452,350);
+INSERT INTO hospital_info values(4,'arjun hospital','chikkodi',75,260,'General medicine',55,8000,312,340);
+INSERT INTO hospital_info values(5,'anika hospital', 'mumbai',84,240,'Elderly Services',45,8500,563,330);
+INSERT INTO hospital_info values(6,'divya hospital',  'channai',96,220,'Inpatient department',35,9000,782,320);
+INSERT INTO hospital_info values(43,'sumita hospital', 'uk',159,200,'ENT',25,10000,982,310);
+INSERT INTO hospital_info values(32,'revati hospital',  'korea',410,190,'Medical records',95,15000,983,290);
+INSERT INTO hospital_info values(23,'tafseen hospital',  'goa',100,180,'Laboratory',90,20000,7891,280);
+INSERT INTO hospital_info values(4,'kiran hospital',  'bidar',120,170,'Medical records',85,25000,7412,270);
+INSERT INTO hospital_info values(2,'pooja hospital',  'hassan',130,160,'Pediatrics',28,30000,1247,260);
+INSERT INTO hospital_info values(23,'kavya hospital', 'haveri',180,150,'Intensive care medicine',75,35000,3589,250);
+select*from hospital_info;
