@@ -2,7 +2,7 @@ class Rocket
 {
 	String country;
 	int speed;
-	String fuelCapacity="18 L ";
+	String fuelCapacity="18L";
 	String noOfThrusters;
 
 	public void display()

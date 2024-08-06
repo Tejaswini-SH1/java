@@ -14,7 +14,7 @@ class Speaker
 	String brand;
 	int size;
 	double cost;
-	String output=" post-amplification";
+	String output="post-amplification";
 
 	public void display()
 	{
